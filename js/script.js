@@ -5,7 +5,7 @@
 // This file contains the JS functions for index.html
 
 function calculateClicked () {
-  // this function calculates the area of a trapezoid
+  // this function calculates the volume of a pyramid
 
   // input
   const length = parseInt(document.getElementById("length").value)
