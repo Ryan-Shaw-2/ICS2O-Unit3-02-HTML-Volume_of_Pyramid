@@ -4,6 +4,8 @@
 // Created on: May 2021
 // This file contains the JS functions for index.html
 
+"use strict"
+
 function calculateClicked () {
   // this function calculates the volume of a pyramid
 
