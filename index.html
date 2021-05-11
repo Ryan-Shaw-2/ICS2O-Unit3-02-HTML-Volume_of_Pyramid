@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--ICS2O-Unit3-02-HTML-Volume_of_Pyramid-->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Volume of a pyramid, with JS">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Ryan-Shaw-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Volume of a pyramid, with JS </title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Volume of a Pyramid, with JS</h1>
+    <h3>Formula</h3>
+    <h4>V = (L x W x H) / 3</h4>
+    <p>Please enter integers for dimensions: </p>
+    <p>
+      <form action="javascript:calculateClicked()">
+        <label for="length">Length: </label>
+        <input type="number" id="length" placeholder="e.g. 3">
+        <label for="unit">cm</label><br><br>
+        <label for="width">Width: </label>
+        <input type="number" id="width" placeholder="e.g 5">
+        <label for="unit">cm</label><br><br>
+        <label for="height">Height: </label>
+        <input type="number" id="height" placeholder="e.g 10">
+        <label for="unit">cm</label><br><br>
+        <input type="submit" value="Caclulate">
+      </form>
+    </p>
+    <div id="user-input">
+      <div id="user-volume"></div>
+    </div>
+  </body>
+</html>
